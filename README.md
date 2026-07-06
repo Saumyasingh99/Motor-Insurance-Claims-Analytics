@@ -116,7 +116,7 @@ Motor-Insurance-Claims-Analytics
 
 ### Profitability Analysis
 
-![Profitability](Screenshots/Motor_product_profitability.png)
+![Profitability Analysis](Screenshots/Motor_product_profitability.png)
 
 ---
 
