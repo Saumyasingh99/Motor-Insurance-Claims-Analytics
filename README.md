@@ -102,7 +102,7 @@ Product profitability analysis including:
 - Average Premium
 - Engine Type Performance
 
-![Motor Product Profitability](Screenshots/Motor_product_profitability.png)
+![Profitability](Screenshots/Motor_product_profitability.png)
 
 ---
 
