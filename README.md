@@ -1,50 +1,48 @@
-# 🚗 Motor Insurance Claims Analysis Dashboard
+# 🚗 Motor Insurance Claims Analytics Dashboard
+
+An interactive **Power BI Dashboard** built to analyze motor insurance claims, premiums, renewals, cancellations, profitability, and customer payment trends.
+
+The dashboard helps insurance companies monitor claim performance, identify profitable products, and make data-driven business decisions.
+
+---
 
 ## 📌 Project Overview
 
-This project is an interactive Power BI dashboard developed to analyze motor insurance claims, premiums, renewals, cancellations, customer claim payments, and vehicle-related trends.
+This dashboard provides insights into:
 
-The dashboard helps insurance companies understand claim patterns, monitor business performance, and make data-driven decisions using interactive visualizations.
-
----
-
-## 🎯 Project Objectives
-
-- Analyze motor insurance claim trends.
-- Monitor premium collection and customer claim payments.
-- Track policy renewals and cancellations.
-- Evaluate profitability across insurance products.
-- Analyze vehicle, engine, and customer claim behavior.
+- Insurance Claims Analysis
+- Premium Collection Analysis
+- Vehicle-wise Claim Trends
+- Profitability Analysis
+- Renewal & Cancellation Performance
+- Custom Tooltip for Detailed Engine Analysis
 
 ---
 
-## 🛠️ Tools & Technologies
+## 🛠 Tools & Technologies
 
-- Microsoft Power BI
+- Power BI Desktop
 - Power Query
-- DAX (Data Analysis Expressions)
+- DAX
 - Microsoft Excel
 - Data Modeling
 
 ---
 
-## 📊 Key KPIs
+## 📂 Dataset
 
-- Total Premium
-- Total Customer Claim Payment
-- Total Profit
-- Total Renewals
-- Total Cancellations
-- Total Non-payment Claims
-- Payment Needed Claims
+The project uses two Excel datasets:
+
+- **claims.xlsx**
+- **policies.xlsx**
 
 ---
 
-## 📈 Dashboard Pages
+## 📊 Dashboard Pages
 
 ### 1️⃣ Portfolio
 
-Executive dashboard containing overall business KPIs, yearly comparison, premium collection, customer payments, renewals, cancellations, vehicle brand analysis, and insurance performance.
+Executive overview of the complete dashboard with navigation buttons to each report page.
 
 ![Portfolio](Screenshots/Portfolio.png)
 
@@ -52,12 +50,15 @@ Executive dashboard containing overall business KPIs, yearly comparison, premium
 
 ### 2️⃣ Introduction of Claims
 
-Analysis of insurance claims including:
+Provides a high-level summary of insurance claims with KPIs and claim distribution.
 
-- Payment Needed Claims
-- Non-payment Claims
-- Claim Types
-- Customer Payment Distribution
+Highlights include:
+
+- Total Claims
+- Claim Status
+- Customer Payments
+- Claim Overview
+- Insurance Metrics
 
 ![Introduction of Claims](Screenshots/Introduction_of_claims.png)
 
@@ -65,13 +66,15 @@ Analysis of insurance claims including:
 
 ### 3️⃣ Trends in Claims
 
-Analysis of claims based on:
+Analyzes claim behavior across different dimensions.
 
-- Vehicle Age
-- Vehicle Registration Year
-- Engine Type
-- Vehicle Type
-- Vehicle Usage
+Key insights:
+
+- Claims by Vehicle Brand
+- Claims by Vehicle Age
+- Claims by Engine Type
+- Claim Trends over Time
+- Claim Distribution
 
 ![Trends in Claims](Screenshots/Trends_in_claims.png)
 
@@ -79,13 +82,15 @@ Analysis of claims based on:
 
 ### 4️⃣ Trends in Sales
 
-Sales and premium analysis including:
+Analyzes premium collection and sales performance.
+
+Key insights:
 
 - Premium by Vehicle Age
 - Premium by Year
 - Premium by Engine Type
-- Pareto Analysis
-- Vehicle Brand Analysis
+- Premium by Vehicle Brand
+- Renewal Status Analysis
 
 ![Trends in Sales](Screenshots/Trends_in_sales.png)
 
@@ -93,39 +98,49 @@ Sales and premium analysis including:
 
 ### 5️⃣ Motor Product Profitability
 
-Product profitability analysis including:
+Provides profitability analysis of motor insurance products.
 
-- Premium by Engine Type
-- Customer Payments
-- Renewals
-- Cancellations
-- Average Premium
-- Engine Type Performance
+Key insights:
 
-![Profitability](Screenshots/Motor_product_profitability.png)
+- Profit Analysis
+- Total Premium Analysis
+- Customer Payment Analysis
+- Renewal Analysis
+- Cancellation Analysis
+- Vehicle Brand Profitability
+- Year-wise Product Performance
 
----
-
-### 6️⃣ Custom Tooltip (Engine by Car Mark)
-
-Custom tooltip page used to provide additional details for engine type distribution by car manufacturer.
-
-![Custom Tooltip](Screenshots/Custom_tool_tip.png)
+![Motor Product Profitability](Screenshots/Motor_product_profitability.png)
 
 ---
 
-## 💡 Business Insights
+### 6️⃣ Custom Tool-tip of EngineByMark
+
+A dedicated Power BI tooltip page that provides additional details when users hover over visuals.
+
+It displays:
+
+- Number of Engine Types by Car Mark
+- Interactive Donut Chart
+- Engine Distribution by Vehicle Brand
+- Detailed hover information for better report exploration
+
+![Custom Tool-tip of EngineByMark](Screenshots/Custom_tool_tip.png)
+
+---
+
+## 📈 Business Insights
 
 - Identified claim trends across different vehicle brands.
-- Compared insurance premiums with customer claim payments.
+- Compared premium collection against customer claim payments.
+- Evaluated profitable insurance products.
 - Monitored renewal and cancellation performance.
-- Evaluated profitability across insurance products.
-- Analyzed claim behavior using engine type and vehicle characteristics.
-- Created interactive dashboards using slicers, KPIs, drill-through, and custom tooltips.
+- Analyzed claim behavior by engine type and vehicle characteristics.
+- Improved dashboard usability using custom Power BI tooltips.
 
 ---
 
-## 📂 Repository Structure
+## 📁 Repository Structure
 
 ```
 Motor-Insurance-Claims-Analytics
@@ -146,11 +161,13 @@ Motor-Insurance-Claims-Analytics
 
 ---
 
-## 📧 Author
+## 👩‍💻 Author
 
 **Saumya Singh**
 
-- LinkedIn: *(linkedin.com/in/saumya-singh-3994a9208)*
 - GitHub: https://github.com/Saumyasingh99
+- LinkedIn: *(linkedin.com/in/saumya-singh-3994a9208)*
 
 ---
+
+⭐ If you found this project helpful, feel free to star the repository.
