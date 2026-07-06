@@ -1,154 +1,114 @@
 # 🚗 Motor Insurance Claims Analytics Dashboard
 
-An interactive **Power BI Dashboard** built to analyze motor insurance claims, premiums, renewals, cancellations, profitability, and customer payment trends.
+An interactive **Power BI dashboard** built to analyze motor insurance claims, premiums, renewals, cancellations, customer payments, and product profitability.
 
-The dashboard helps insurance companies monitor claim performance, identify profitable products, and make data-driven business decisions.
-
----
-
-## 📌 Project Overview
-
-This dashboard provides insights into:
-
-- Insurance Claims Analysis
-- Premium Collection Analysis
-- Vehicle-wise Claim Trends
-- Profitability Analysis
-- Renewal & Cancellation Performance
-- Custom Tooltip for Detailed Engine Analysis
+This dashboard helps identify claim patterns, monitor insurance performance, and support data-driven business decisions.
 
 ---
 
-## 🛠 Tools & Technologies
+# 📌 Project Overview
 
-- Power BI Desktop
+This Power BI project provides interactive insights into:
+
+- Motor Insurance Claims
+- Customer Claim Payments
+- Premium Analysis
+- Vehicle-wise Performance
+- Product Profitability
+- Renewal & Cancellation Trends
+- Interactive Custom Tooltips
+
+---
+
+# 🛠️ Tools & Technologies
+
+- Microsoft Power BI Desktop
 - Power Query
-- DAX
+- DAX (Data Analysis Expressions)
 - Microsoft Excel
 - Data Modeling
 
 ---
 
-## 📂 Dataset
+# 📂 Dataset
 
-The project uses two Excel datasets:
+The dashboard is built using two Excel datasets:
 
 - **claims.xlsx**
 - **policies.xlsx**
 
 ---
 
-## 📊 Dashboard Pages
+# 📊 Dashboard Pages
 
-### 1️⃣ Portfolio
+## 1️⃣ Portfolio
 
-Executive overview of the complete dashboard with navigation buttons to each report page.
+Landing page of the dashboard providing navigation to all report pages.
 
 ![Portfolio](Screenshots/Portfolio.png)
 
 ---
 
-### 2️⃣ Introduction of Claims
+## 2️⃣ Introduction of claims
 
-Provides a high-level summary of insurance claims with KPIs and claim distribution.
+Overview of motor insurance claim information with interactive visuals and key performance indicators.
 
-Highlights include:
-
-- Total Claims
-- Claim Status
-- Customer Payments
-- Claim Overview
-- Insurance Metrics
-
-![Introduction of Claims](Screenshots/Introduction_of_claims.png)
+![Introduction of claims](Screenshots/Introduction_of_claims.png)
 
 ---
 
-### 3️⃣ Trends in Claims
+## 3️⃣ Trends in claims
 
-Analyzes claim behavior across different dimensions.
+Analyzes claim trends across different business dimensions using interactive charts and filters.
 
-Key insights:
-
-- Claims by Vehicle Brand
-- Claims by Vehicle Age
-- Claims by Engine Type
-- Claim Trends over Time
-- Claim Distribution
-
-![Trends in Claims](Screenshots/Trends_in_claims.png)
+![Trends in claims](Screenshots/Trends_in_claims.png)
 
 ---
 
-### 4️⃣ Trends in Sales
+## 4️⃣ Trends in sales
 
-Analyzes premium collection and sales performance.
+Analyzes premium collection and sales-related trends through interactive visualizations.
 
-Key insights:
-
-- Premium by Vehicle Age
-- Premium by Year
-- Premium by Engine Type
-- Premium by Vehicle Brand
-- Renewal Status Analysis
-
-![Trends in Sales](Screenshots/Trends_in_sales.png)
+![Trends in sales](Screenshots/Trends_in_sales.png)
 
 ---
 
-### 5️⃣ Motor Product Profitability
+## 5️⃣ Motor product profitability
 
-Provides profitability analysis of motor insurance products.
+Provides insights into product profitability, customer payments, premiums, renewals, cancellations, and insurance performance.
 
-Key insights:
-
-- Profit Analysis
-- Total Premium Analysis
-- Customer Payment Analysis
-- Renewal Analysis
-- Cancellation Analysis
-- Vehicle Brand Profitability
-- Year-wise Product Performance
-
-![Motor Product Profitability](Screenshots/Motor_product_profitability.png)
+![Motor product profitability](Screenshots/Motor_product_profitability.png)
 
 ---
 
-### 6️⃣ Custom Tool-tip of EngineByMark
+## 6️⃣ Custom Tool-tip of EngineByMark
 
-A dedicated Power BI tooltip page that provides additional details when users hover over visuals.
-
-It displays:
-
-- Number of Engine Types by Car Mark
-- Interactive Donut Chart
-- Engine Distribution by Vehicle Brand
-- Detailed hover information for better report exploration
+A dedicated Power BI tooltip page that displays additional engine-type information by vehicle brand when users hover over report visuals.
 
 ![Custom Tool-tip of EngineByMark](Screenshots/Custom_tool_tip.png)
 
 ---
 
-## 📈 Business Insights
+# 📈 Business Insights
 
 - Identified claim trends across different vehicle brands.
-- Compared premium collection against customer claim payments.
-- Evaluated profitable insurance products.
+- Compared premium collections with customer claim payments.
 - Monitored renewal and cancellation performance.
-- Analyzed claim behavior by engine type and vehicle characteristics.
-- Improved dashboard usability using custom Power BI tooltips.
+- Evaluated motor insurance product profitability.
+- Analyzed insurance performance using interactive Power BI dashboards.
+- Improved report usability using custom Power BI tooltips.
 
 ---
 
-## 📁 Repository Structure
+# 📁 Repository Structure
 
-```
+```text
 Motor-Insurance-Claims-Analytics
 │
-├── Motor Insurance Claims Analysis Dashboard.pbix
 ├── Datasets
 │   ├── claims.xlsx
 │   └── policies.xlsx
+│
 ├── Screenshots
 │   ├── Portfolio.png
 │   ├── Introduction_of_claims.png
@@ -156,12 +116,24 @@ Motor-Insurance-Claims-Analytics
 │   ├── Trends_in_sales.png
 │   ├── Motor_product_profitability.png
 │   └── Custom_tool_tip.png
+│
+├── Motor Insurance Claims Analysis Dashboard.pbix
+│
 └── README.md
 ```
 
 ---
 
-## 👩‍💻 Author
+# 🚀 How to Use
+
+1. Clone this repository.
+2. Open **Motor Insurance Claims Analysis Dashboard.pbix** in **Power BI Desktop**.
+3. If prompted, reconnect the Excel files located inside the **Datasets** folder.
+4. Explore the dashboard using slicers, filters, bookmarks, and custom tooltips.
+
+---
+
+# 👩‍💻 Author
 
 **Saumya Singh**
 
@@ -170,4 +142,4 @@ Motor-Insurance-Claims-Analytics
 
 ---
 
-⭐ If you found this project helpful, feel free to star the repository.
+⭐ If you found this project useful, consider giving the repository a **Star**.
