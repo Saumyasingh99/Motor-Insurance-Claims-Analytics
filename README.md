@@ -77,7 +77,7 @@ Analyzes premium collection and sales-related trends through interactive visuali
 
 Provides insights into product profitability, customer payments, premiums, renewals, cancellations, and insurance performance.
 
-![Motor product profitability](Screenshots/Motor_product_profitability.png)
+https://github.com/Saumyasingh99/Motor-Insurance-Claims-Analytics/blob/main/Screenshots/Motor_product_proftability.png
 
 ---
 
