@@ -1,26 +1,27 @@
 # 🚗 Motor Insurance Claims Analytics Dashboard
 
-An interactive **Power BI dashboard** built to analyze motor insurance claims, premiums, renewals, cancellations, customer payments, and product profitability.
+An interactive **Power BI Dashboard** developed to analyze motor insurance claims, premiums, renewals, cancellations, customer payments, and product profitability.
 
-This dashboard helps identify claim patterns, monitor insurance performance, and support data-driven business decisions.
+The dashboard enables users to explore insurance data through interactive visualizations, filters, and custom tooltips to support better business decision-making.
 
 ---
 
 # 📌 Project Overview
 
-This Power BI project provides interactive insights into:
+This project focuses on analyzing motor insurance data to identify business trends and monitor overall insurance performance using Power BI.
 
-- Motor Insurance Claims
-- Customer Claim Payments
+Key analysis includes:
+
+- Insurance Claims
 - Premium Analysis
-- Vehicle-wise Performance
+- Customer Claim Payments
 - Product Profitability
 - Renewal & Cancellation Trends
-- Interactive Custom Tooltips
+- Interactive Data Exploration
 
 ---
 
-# 🛠️ Tools & Technologies
+# 🛠 Tools & Technologies
 
 - Microsoft Power BI Desktop
 - Power Query
@@ -32,10 +33,10 @@ This Power BI project provides interactive insights into:
 
 # 📂 Dataset
 
-The dashboard is built using two Excel datasets:
+This project uses two Excel datasets:
 
-- **claims.xlsx**
-- **policies.xlsx**
+- claims.xlsx
+- policies.xlsx
 
 ---
 
@@ -51,7 +52,7 @@ Landing page of the dashboard providing navigation to all report pages.
 
 ## 2️⃣ Introduction of claims
 
-Overview of motor insurance claim information with interactive visuals and key performance indicators.
+Provides an overview of motor insurance claims using interactive KPIs and business visuals.
 
 ![Introduction of claims](Screenshots/Introduction_of_claims.png)
 
@@ -59,7 +60,7 @@ Overview of motor insurance claim information with interactive visuals and key p
 
 ## 3️⃣ Trends in claims
 
-Analyzes claim trends across different business dimensions using interactive charts and filters.
+Visualizes claim trends across multiple business dimensions using interactive charts and filters.
 
 ![Trends in claims](Screenshots/Trends_in_claims.png)
 
@@ -67,7 +68,7 @@ Analyzes claim trends across different business dimensions using interactive cha
 
 ## 4️⃣ Trends in sales
 
-Analyzes premium collection and sales-related trends through interactive visualizations.
+Analyzes premium and sales-related trends using interactive Power BI visualizations.
 
 ![Trends in sales](Screenshots/Trends_in_sales.png)
 
@@ -75,15 +76,15 @@ Analyzes premium collection and sales-related trends through interactive visuali
 
 ## 5️⃣ Motor product profitability
 
-Provides insights into product profitability, customer payments, premiums, renewals, cancellations, and insurance performance.
+Provides insights into product profitability, customer payments, premiums, renewals, cancellations, and overall insurance performance.
 
-https://github.com/Saumyasingh99/Motor-Insurance-Claims-Analytics/blob/main/Screenshots/Motor_product_proftability.png
+![Motor product profitability](Screenshots/Motor_product_profitability.png)
 
 ---
 
 ## 6️⃣ Custom Tool-tip of EngineByMark
 
-A dedicated Power BI tooltip page that displays additional engine-type information by vehicle brand when users hover over report visuals.
+Dedicated tooltip page used within the dashboard to display additional information about engine types by vehicle brand when users hover over report visuals.
 
 ![Custom Tool-tip of EngineByMark](Screenshots/Custom_tool_tip.png)
 
@@ -91,12 +92,12 @@ A dedicated Power BI tooltip page that displays additional engine-type informati
 
 # 📈 Business Insights
 
-- Identified claim trends across different vehicle brands.
+- Monitored motor insurance claim performance.
 - Compared premium collections with customer claim payments.
-- Monitored renewal and cancellation performance.
-- Evaluated motor insurance product profitability.
-- Analyzed insurance performance using interactive Power BI dashboards.
-- Improved report usability using custom Power BI tooltips.
+- Evaluated product profitability.
+- Tracked renewal and cancellation trends.
+- Explored insurance data through interactive Power BI visuals.
+- Enhanced report usability with custom Power BI tooltips.
 
 ---
 
@@ -127,9 +128,9 @@ Motor-Insurance-Claims-Analytics
 # 🚀 How to Use
 
 1. Clone this repository.
-2. Open **Motor Insurance Claims Analysis Dashboard.pbix** in **Power BI Desktop**.
-3. If prompted, reconnect the Excel files located inside the **Datasets** folder.
-4. Explore the dashboard using slicers, filters, bookmarks, and custom tooltips.
+2. Open **Motor Insurance Claims Analysis Dashboard.pbix** in Power BI Desktop.
+3. Connect the Excel files from the **Datasets** folder if prompted.
+4. Explore the report using filters, slicers, and custom tooltips.
 
 ---
 
@@ -138,8 +139,8 @@ Motor-Insurance-Claims-Analytics
 **Saumya Singh**
 
 - GitHub: https://github.com/Saumyasingh99
-- LinkedIn: *(linkedin.com/in/saumya-singh-3994a9208)*
+- LinkedIn: *(Add your LinkedIn profile URL here)*
 
 ---
 
-⭐ If you found this project useful, consider giving the repository a **Star**.
+⭐ If you found this project helpful, consider giving it a star.
