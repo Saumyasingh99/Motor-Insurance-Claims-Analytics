@@ -78,7 +78,7 @@ Analyzes premium and sales-related trends using interactive Power BI visualizati
 
 Provides insights into product profitability, customer payments, premiums, renewals, cancellations, and overall insurance performance.
 
-![Motor product profitability](Screenshots/Motor_product_profitability.png)
+![Motor product profitability](Screenshots/Motor_product_proftability.png)
 
 ---
 
