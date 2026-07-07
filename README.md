@@ -78,7 +78,7 @@ Analyzes premium and sales-related trends using interactive Power BI visualizati
 
 Provides insights into product profitability, customer payments, premiums, renewals, cancellations, and overall insurance performance.
 
-![Motor product profitability](Screenshots/Motor_product_proftability.png)
+![Motor product profitability](Screenshots/Motor_product_profitability.png)
 
 ---
 
@@ -138,8 +138,8 @@ Motor-Insurance-Claims-Analytics
 
 **Saumya Singh**
 
-- GitHub: https://github.com/Saumyasingh99
-- LinkedIn: *(Add your LinkedIn profile URL here)*
+- LinkedIn: [Saumya Singh](https://www.linkedin.com/in/saumya-singh-3994a9208/)
+- GitHub: [Saumya Singh](https://github.com/Saumyasingh99)
 
 ---
 
